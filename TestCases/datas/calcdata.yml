@@ -1,0 +1,55 @@
+add:
+  add_datas:
+    - [0,0,0]
+    - [1,1,2]
+    - [0.1,0.2,0.3]
+    - [-0.1,-0.2,-0.3]
+    - [-1,2,1]
+    - [-1,-1,-2]
+    - [1,0.1,1.1]
+    - [-0.1,1,0.9]
+    - [100,100,200]
+    - [100000000,100000000,200000000]
+    - ['a',0,'a']
+
+  add_dataid:
+    - 'zero'
+    - 'int'
+    - 'float'
+    - 'minus_float'
+    - 'minus_int'
+    - 'minus'
+    - 'int_float'
+    - 'float_int'
+    - 'big_int'
+    - 'maximum_int'
+    - 'string'
+
+div:
+  div_datas:
+    - [0,0,0]
+    - [0,2,0]
+    - [1,1,1]
+    - [0.2,0.1,2]
+    - [-0.2,-0.1,2]
+    - [-1,2,-0.5]
+    - [-1,-1,1]
+    - [1,0.1,10]
+    - [-0.1,1,-0.1]
+    - [100,100,1]
+    - [100000000,100000000,1]
+    - ['a',0,'a']
+
+  div_dataid:
+    - 'zero_fail'
+    - 'zero'
+    - 'int'
+    - 'float'
+    - 'minus_float'
+    - 'minus_int'
+    - 'minus'
+    - 'int_float'
+    - 'float_int'
+    - 'big_int'
+    - 'maximum_int'
+    - 'string'
